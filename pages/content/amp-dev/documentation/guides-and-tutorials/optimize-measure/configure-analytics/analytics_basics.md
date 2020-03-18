@@ -107,7 +107,7 @@ sends the pageview data to a defined URL along with a random ID:
 <script type="application/json">
 {
   "requests": {
-    "pageview": "https://foo.com/pixel?RANDOM",
+    "pageview": "https://foo.com/pixel?RANDOM"
   },
   "triggers": {
     "trackPageview": {
@@ -226,7 +226,7 @@ within the [`amp-analytics`](../../../../documentation/components/reference/amp-
 <script type="application/json">
 {
   "requests": {
-    "pageview":"https://example.com/analytics?url=${canonicalUrl}&title=${title}&acct=${account}&clientId=${clientId(site-user-id)}",
+    "pageview":"https://example.com/analytics?url=${canonicalUrl}&title=${title}&acct=${account}&clientId=${clientId(site-user-id)}"
   },
   "vars": {
     "account": "ABC123",
