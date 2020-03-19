@@ -229,14 +229,14 @@ within the [`amp-analytics`](../../../../documentation/components/reference/amp-
     "pageview":"https://example.com/analytics?url=${canonicalUrl}&title=${title}&acct=${account}&clientId=${clientId(site-user-id)}"
   },
   "vars": {
-    "account": "ABC123",
+    "account": "ABC123"
   },
   "triggers": {
     "someEvent": {
       "on": "visible",
       "request": "pageview",
       "vars": {
-        "title": "My homepage",
+        "title": "My homepage"
       }
     }
   }
